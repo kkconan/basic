@@ -171,11 +171,11 @@
     <distributionManagement>
         <repository>
             <id>releases</id>
-            <url>http://10.66.1.40:8081/nexus/content/repositories/releases</url>
+            <url>http://nexus.91steel.com/nexus/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
-            <url>http://10.66.1.40:8081/nexus/content/repositories/snapshots</url>
+            <url>http://nexus.91steel.com/nexus/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
     <!-- nexus end -->
@@ -236,7 +236,7 @@
                 </executions>
                 <configuration>
                     <serverId>nexus</serverId>
-                    <nexusUrl>http://10.66.1.40:8081/nexus/</nexusUrl>
+                    <nexusUrl>http://nexus.91steel.com/nexus/</nexusUrl>
                     <skipStaging>true</skipStaging>
                 </configuration>
             </plugin>
