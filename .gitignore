@@ -1,0 +1,10 @@
+/target/
+/.apt_generated/
+/.settings/
+.classpath
+.factorypath
+.project
+.springBeans
+.*iml
+/common.basic.iml
+/basic.iml
